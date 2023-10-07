@@ -28,5 +28,13 @@ cout << hi << endl;
 In the terminal with command lines:
 
 ```bash
-./rebuild.sh 
+# Complier with CMake and Make
+./rebuild.sh
+
+# Print
+./build/print
+# Union
+./build/union
+# runnian
+./build/runnian
 ```

@@ -1,29 +1,27 @@
 # Day 1
 
-- annotate
-- print
-- runnian
-- union
-
-## annotate
+- Annotate
 
 ```cpp
 \* This is a example *\
 \\ HOw to annotate in C++
 ```
 
-## print
+- Print
 
 ```cpp
 cout << hi; 
 cout << hi << endl;
 ```
 
-## union
+- Class Type
+  - Union
+    - All varable will share the same memory position.
+    - Store one dtpye in one time.
+    - It's different with struct.
 
-- All varable will share the same memory position.
-- Store one dtpye in one time.
-- It's different with struct.
+- Project
+  - runnian
 
 ## Run The Code
 

@@ -14,6 +14,10 @@ Recursive, Struct, Enumeration and Static Variable
 
 Static Member, Static Function
 
+## [Day4](./Day4)
+
+Copy Constructor, Const Func, Friend Func
+
 ## Reference
 
 - [C++ 那些事](https://github.com/Light-City/CPlusPlusThings/tree/master)

@@ -2,6 +2,9 @@
 /*
 Using 'static' will make the variable shared by all instances of the class.
 must be initialized outside the class.
+
+Constructors:
+To create a constructor, use the same name as the class.
 */
 
 #include <iostream>
@@ -9,12 +12,12 @@ using namespace std;
 
 class Point {
     public:
-        Point(int x, int y) {
+        Point(int x, int y) {  // create constructor
             X = x;
             Y = y;
             countP++;
         }
-        Point(Point &p);
+        Point(Point &p);  // copy constructor
         int getX() { return X; }
         int getY() { return Y; }
         void GetC() { cout << " Object id=" << countP << endl; }

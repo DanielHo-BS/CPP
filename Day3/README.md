@@ -3,10 +3,17 @@
 Static Function and Static Member.
 
 - static_member.cpp
-  - inline.cpp: ``lambda`` mehtod
-  - predeclare.cpp
-  - constructor.cpp: to create a constructor, use the same name as the class.
-- Project
+
+  1. Static members belong to the class rather than individual objects.
+  2. Non-const static members need to be initialized outside the class definition.
+  3. They can be accessed using the name of an object instance or the class name followed by the :: operator.
+   Typically, the class name followed by :: is used to access them, which can help avoid confusion with non-static data members.
+  4. Static members also adhere to public, protected, and private access restrictions.
+
+- inline.cpp: ``lambda`` mehtod
+- predeclare.cpp
+- constructor.cpp: to create a constructor, use the same name as the class.
+- Projects
   - swap.cpp
   - poolPrice.cpp
 

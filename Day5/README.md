@@ -36,6 +36,18 @@ class  <derived_class_name> : <access-specifier> <base_class_name>
 
 - Virtual
 
+  The virtual keyword is used to avoid ambiguity in multiple inheritance.
+
+## Run the code
+
+```bash
+# Complier with CMake and Make
+./rebuild.sh
+
+# run all in ./build/<File Name>
+./build/*
+```
+
 ## Reference
 
 [Inheritance in C++](https://www.geeksforgeeks.org/inheritance-in-c/)

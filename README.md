@@ -18,6 +18,10 @@ Static Member, Static Function
 
 Copy Constructor, Const Func, Friend Func
 
+## [Day5](./Day5/)
+
+Constructing, Destructing, Inheritance, Virtual
+
 ## Reference
 
 - [C++ 那些事](https://github.com/Light-City/CPlusPlusThings/tree/master)

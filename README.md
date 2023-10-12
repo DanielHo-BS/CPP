@@ -20,7 +20,7 @@ Copy Constructor, Const Func, Friend Func
 
 ## [Day5](./Day5/)
 
-Constructing, Destructing, Inheritance, Virtual
+Inheritance, Access, Virtual
 
 ## Reference
 

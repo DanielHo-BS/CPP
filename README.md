@@ -22,6 +22,10 @@ Copy Constructor, Const Func, Friend Func
 
 Inheritance, Access, Virtual
 
+## [Day6](./Day6/)
+
+Virtual, Abstract
+
 ## Reference
 
 - [C++ 那些事](https://github.com/Light-City/CPlusPlusThings/tree/master)

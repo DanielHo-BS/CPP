@@ -3,13 +3,21 @@
 Customizes the C++ operators for operands of user-defined types.
 
 - Operator
-  - Assignment operator
+  - Assignment operator (*operator=*)
+    - copy assignment
+    - move assignment
   - Stream extraction and insertion
   - Function call operator
   - Increment and decrement
+    - Prefix & Postfix
   - Binary arithmetic operators
   - Comparison operators
+    - <=> since C++20
   - Array subscript operator
+    - ()
+    - []
+- Project
+  - SalaryManager
 
 ## Syntax
 
@@ -58,6 +66,10 @@ operator co_await (since C++20)
 
 ## Reference
 
-[運算子多載](https://learn.microsoft.com/zh-tw/cpp/cpp/operator-overloading?view=msvc-170)
+[Microsoft: 運算子多載](https://learn.microsoft.com/zh-tw/cpp/cpp/operator-overloading?view=msvc-170)
 
 [operator overloading](https://en.cppreference.com/w/cpp/language/operators)
+
+[Open Home: 運算子重載](https://openhome.cc/Gossip/CppGossip/OverloadOperator.html)
+
+[Overloading the comparison operators](https://www.learncpp.com/cpp-tutorial/overloading-the-comparison-operators/)

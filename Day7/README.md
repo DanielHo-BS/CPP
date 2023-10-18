@@ -64,6 +64,16 @@ operator co_await (since C++20)
 |a->       |(a).operator-> ( )  |
 |a@        |(a).operator@ (0)   |
 
+## Run the code
+
+```bash
+# Complier with CMake and Make
+./rebuild.sh
+
+# run all in ./build/<File Name>
+./build/*
+```
+
 ## Reference
 
 [Microsoft: 運算子多載](https://learn.microsoft.com/zh-tw/cpp/cpp/operator-overloading?view=msvc-170)

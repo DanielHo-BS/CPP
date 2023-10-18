@@ -28,8 +28,10 @@ Virtual, Abstract
 
 ## [Day7](./Day7/)
 
-Operator
+Operator overloading
 
 ## Reference
 
 - [C++ 那些事](https://github.com/Light-City/CPlusPlusThings/tree/master)
+
+- [C++ 語言參考](https://learn.microsoft.com/zh-tw/cpp/cpp/cpp-language-reference?view=msvc-170)
